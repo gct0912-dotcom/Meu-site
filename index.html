@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curso de Marketing Online</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#0f172a;
+    color:white;
+}
+
+header{
+    background:linear-gradient(90deg,#3b82f6,#9333ea);
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:36px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 25px;
+    background:#22c55e;
+    color:white;
+    text-decoration:none;
+    border:none;
+    border-radius:8px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.section{
+    padding:50px 20px;
+    max-width:1000px;
+    margin:auto;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:12px;
+}
+
+.price{
+    text-align:center;
+    font-size:28px;
+    margin-top:20px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Curso de Marketing Online</h1>
+    <p>Aprende a ganhar dinheiro na internet mesmo começando do zero</p>
+    <a href="#comprar" class="btn">Quero Começar</a>
+</header>
+
+<section class="section">
+    <h2>O que vais aprender</h2>
+
+    <div class="cards">
+        <div class="card">Criar produtos digitais</div>
+        <div class="card">Vender todos os dias</div>
+        <div class="card">Usar redes sociais para crescer</div>
+        <div class="card">Ganhar dinheiro online</div>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Para quem é este curso?</h2>
+
+    <p>
+        ✔ Iniciantes<br>
+        ✔ Pessoas que querem ganhar dinheiro online<br>
+        ✔ Quem quer liberdade financeira
+    </p>
+</section>
+
+<section class="section" id="comprar">
+    <h2 style="text-align:center;">Começa hoje</h2>
+
+    <div class="price">Apenas 10€</div>
+
+    <p style="text-align:center;">
+        Pagamento único. Acesso imediato.
+    </p>
+
+    <div style="text-align:center;">
+
+        <!-- BOTÃO PAYPAL -->
+        <form action="https://www.paypal.com/donate" method="post" target="_top">
+            <input type="hidden" name="business" value="TEU_EMAIL_PAYPAL">
+            <input type="hidden" name="amount" value="10.00">
+            <input type="hidden" name="currency_code" value="EUR">
+
+            <button class="btn" type="submit">
+                Comprar Agora
+            </button>
+        </form>
+
+    </div>
+</section>
+
+<footer>
+© 2026 Curso de Marketing Online - Todos os direitos reservados
+</footer>
+
+</body>
+</html>
